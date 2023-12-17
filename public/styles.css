@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Berlin Sans FB';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
+    }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #logoIco{
+    position: absolute;
+  }
+  .wabiSabiTop{
+    color: #e2c7c7;
+    display: inline-block;
+    padding: 3px;
+  }
+  .logo_and_ico{
+    cursor: pointer;
+  }
+  .sign_up_button{
+    font-family: Berlin sans FB;
+    border: none;
+    font-size: 1rem;
+    color: #ededed;
+    position: relative;
+    left: 50vw;
+    border-radius: 30px;
+    background: none;
+    background-color: #f49a73;
+    height: 5vh;
+    width: 20vb;
+  }
+  .sign_up_button:hover{
+    color: #f49a73;
+    background-color: #ededed;
+  }
+  .nav_links{
+    list-style: none;
+    position: relative;
+    left: 40vw;
+  }
+  .nav_links li{
+    color:#f49a73;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    cursor: pointer;
+  }
+.nav_links li:hover{
+  color: #ededed;
+  
+}
+  .header{
+    padding: 2vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+ #loginback{
+    fill: #e2c7c7;
+    height: 80vh;
+    position: relative;
+    top: 5vh;
+    left: 3vw;
+    filter: drop-shadow(0px 0px 99px rgba(0 ,0, 0 ,0.4));
+    
+  }
+  .signin{
+    position: relative;
+    bottom: 55vh;
+    left: 10rem;
+  }
+  .signin p{
+    position: relative;
+    left: 3.5vw;
+    top: 2vh;
+  }
+  #createacc:hover{
+    background-color: rgb(246, 199, 199);
+    
+  }
+  #createacc{
+    background-color:  #e76f6f;
+    font-family: Berlin sans FB;
+    position: relative;
+    left: 3.8vw;
+    top:3vh;
+    color: #ffffff;
+    font-weight: 500;
+    border: 3px solid #e76f6f;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1vh 1.5vw;
+    border-radius: 20px;
+  }
+  .form label{
+    font-size: 1.5rem;
+    color: #565656;
+  }
+  .form input:focus{
+    outline: none;
+  }
+  .form button:hover{
+      background-color: #e76f6f;
+  }
+  .form button{
+    background: none;
+    font-family: Berlin sans FB;
+    position: relative;
+    left: 5.5vw;
+    color: #ffffff;
+    font-weight: 500;
+    border: 3px solid #e76f6f;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1vh 1.5vw;
+    border-radius: 20px;
+  }
+  .form input{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #565656;
+    background: none;
+    border: none;
+    border-bottom: 5px solid #e76f6f;
+    width: 20vw;
+    
+  }
+  html {
+    font-family: Berlin sans FB;
+  }
+  body {
+    background-image: linear-gradient(45deg, #d395a3,#793b29);
+    padding: 0 16px;
+    height: 100vh;
+    width: 100vb;
+    background-attachment: fixed;
+  }
