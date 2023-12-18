@@ -37,6 +37,27 @@
     color: #f49a73;
     background-color: #ededed;
   }
+  #mascot{
+    position: absolute;
+    display: inline-block;
+    height: 70vh;
+    bottom: 3vh;
+    left: 60vw;
+    filter: drop-shadow(0px 0px 99px rgba(0 ,0, 0 ,0.4));
+  }
+  #leftfloat{
+    height: 50vh;
+    padding: 10vh 0;
+    
+  }
+  .rightfloat h1{
+    color: #ededed;
+    font-size: 5rem;
+    position: relative;
+    left: 40vw;
+    padding: 15vh 0;
+    bottom: 35vh;
+  }
   .nav_links{
     list-style: none;
     position: relative;
@@ -47,6 +68,7 @@
     display: inline-block;
     font-size: 1.5rem;
     padding: 0px 20px;
+    margin: 0px 10px;
     cursor: pointer;
   }
 .nav_links li:hover{
@@ -56,8 +78,10 @@
   .header{
     padding: 2vh 0;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     
   }
  #loginback{
@@ -66,8 +90,12 @@
     position: relative;
     top: 5vh;
     left: 3vw;
+    z-index: -1;
     filter: drop-shadow(0px 0px 99px rgba(0 ,0, 0 ,0.4));
     
+  }
+  form{
+    width: 30vw;
   }
   .signin{
     position: relative;
@@ -81,7 +109,36 @@
   }
   #createacc:hover{
     background-color: rgb(246, 199, 199);
-    
+
+  }
+  .formsignup{
+    padding: 5vh 5vw;
+  }
+  .nodisplay{
+    display: none;
+  }
+  #cross{
+    position: absolute;
+    left: 24vw;
+    top: 3vh;
+    font-size: 1rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 100px;
+  }
+  .SignUp{
+    background-color: rgba(246, 199, 199,0.6);
+    height: 70vh;
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 99px rgba(0 ,0, 0 ,0.4));
+    top: 20vh;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 30vw;
+    z-index: 10;
+    display: inline;
   }
   #createacc{
     background-color:  #e76f6f;
