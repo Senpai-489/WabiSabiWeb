@@ -2,7 +2,10 @@ import React from "react";
 import Svglogo from "./lomgo.svg"
 
 function SvgLogo(){
-    return <Svglogo />
+    return (<div className="logo">
+    
+    <Svglogo />
+    </div>)
 
 }
 function SvgBack(){

@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+
+
 
 function Signup(props){
-    
+    function yo(){
+        var visibility = document.getElementsByClassName('signup');
+        visibility.style=`display : 'none'`;
+    }
     
      return <div className="SignUp" style={{display: props.state?'none':'inline'}}>
          <form class="form formsignup">
-         <button id="cross">X</button>
+         <button id="cross" onClick={yo}>X</button>
          <label  for="Name"><b>Name</b></label><br/>
     <input type="text" placeholder=" Enter Your Name" name="Name" required />
     <br/><br/>

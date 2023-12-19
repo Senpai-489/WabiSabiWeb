@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import SvgBack from "./svgbackground";
 import Signup from "./SignupPop";
-
+    var state_pop;
+    function updation(){};
 function Login(props){
-    var [state_pop,updation]=useState(props.state);
-    function popup(){
-        updation(!state_pop);
+     [state_pop,updation]=useState(props.state);
+    function pop(){
+        popup(updation,state_pop)
     }
+    
     return <div id="leftfloat">
         <SvgBack />
         <div className="signin">
@@ -22,9 +24,15 @@ function Login(props){
     <button type="submit">Sign in</button>
         </form>
     <p>Don't have an account yet?</p>
-    <button id="createacc" onClick={popup}>Create Account</button>
+    <button id="createacc" onClick={pop}>Create Account</button>
         </div>
         {<Signup state={state_pop}/>} 
     </div>
+    
 }
+
+    function popup(updation,state_pop){
+        updation(!state_pop);
+    }
 export default Login;
+export {state_pop};

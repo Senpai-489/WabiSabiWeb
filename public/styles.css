@@ -56,7 +56,7 @@
     position: relative;
     left: 40vw;
     padding: 15vh 0;
-    bottom: 35vh;
+    bottom: 40vh;
   }
   .nav_links{
     list-style: none;
@@ -75,10 +75,24 @@
   color: #ededed;
   
 }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    left: 67.8vw;
+    z-index: 5;
+    margin: 0px 45px;
+    display: inline-block;
+    top: -5.8vh;
+}
+
   .header{
     padding: 2vh 0;
     display: flex;
-    
+    z-index: 10;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -114,9 +128,7 @@
   .formsignup{
     padding: 5vh 5vw;
   }
-  .nodisplay{
-    display: none;
-  }
+  
   #cross{
     position: absolute;
     left: 24vw;
@@ -138,7 +150,7 @@
     transform: translate(-50%, 0);
     width: 30vw;
     z-index: 10;
-    display: inline;
+    display: none;
   }
   #createacc{
     background-color:  #e76f6f;
